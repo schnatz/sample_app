@@ -1,19 +1,25 @@
 @import "bootstrap";
 
+/* mixins, variables etc. */
+
+$grayMediumLight: #eaeaea;
+
 /* universal */
-$lightGray: #999;
 
 html {
   overflow-y: scroll;
 }
 
+
 body {
   padding-top: 60px;
 }
 
+
 section {
   overflow: auto;
 }
+
 
 textarea {
   resize: vertical;
@@ -25,7 +31,8 @@ textarea {
     margin-bottom: 10px;
   }
 }
-}
+
+
 
 /* typography */
 
@@ -46,7 +53,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $grayMediumLight;
 }
 
 p {
@@ -67,17 +74,19 @@ p {
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: #fff;
+    color: #ff0;
     text-decoration: none;
   }
 }
+
+
 /* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: $grayLight;;
+  color: $grayMediumLight;
   a {
     color: #555;
     &:hover {
